@@ -1,0 +1,31 @@
+{
+  "name": "zuii-backend-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidCarlosSL/zuii-backend-node.git"
+  },
+  "author": "David Carlos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidCarlosSL/zuii-backend-node/issues"
+  },
+  "homepage": "https://github.com/DavidCarlosSL/zuii-backend-node#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.2.1",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.8.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
